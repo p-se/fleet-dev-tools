@@ -3,10 +3,10 @@
 
 set -euxo pipefail
 
-if [ ! -d ./charts/fleet ]; then
-  echo "please change the current directory to the fleet repo checkout"
-  exit 1
-fi
+# if [ ! -d ./charts/fleet ]; then
+#   echo "please change the current directory to the fleet repo checkout"
+#   exit 1
+# fi
 
 name="$1"
 #baseport="$2"
